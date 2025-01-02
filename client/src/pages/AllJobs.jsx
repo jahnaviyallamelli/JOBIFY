@@ -20,8 +20,8 @@ const AllJobs = () => {
   console.log(data);
   return (
     <AllJobsContext.Provider value={{data}}>
-    <SearchContainer/>
-    <JobsContainer/>
+      <SearchContainer/>
+      <JobsContainer/>
     </AllJobsContext.Provider>
   )
 }
